@@ -68,9 +68,7 @@
 				4713725827BBCFF0007F48F2 /* Presentation */,
 				4713724127BBBA20007F48F2 /* AppDelegate.swift */,
 				4713724327BBBA20007F48F2 /* SceneDelegate.swift */,
-				4713724727BBBA20007F48F2 /* Main.storyboard */,
 				4713724A27BBBA25007F48F2 /* Assets.xcassets */,
-				4713724C27BBBA25007F48F2 /* LaunchScreen.storyboard */,
 				4713724F27BBBA25007F48F2 /* Info.plist */,
 			);
 			path = SuperheroKukharchuk;
@@ -138,6 +136,8 @@
 		4713725C27BBD02F007F48F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4713724727BBBA20007F48F2 /* Main.storyboard */,
+				4713724C27BBBA25007F48F2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
