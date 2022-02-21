@@ -1,21 +1,62 @@
 //
-//  ViewController.swift
+//  StartViewController.swift
 //  SuperheroKukharchuk
 //
-//  Created by Марія Кухарчук on 15.02.2022.
+//  Created by Марія Кухарчук on 21.02.2022.
 //
 
 import UIKit
 
 class StartViewController: UIViewController, Storyboarded {
-    
+
     weak var coordinator: MainCoordinator?
+    
+    @IBOutlet weak var maleButton: UIButton!
+    @IBOutlet weak var superheroLabel: UILabel!
+    @IBOutlet weak var femaleButton: UIButton!
+    @IBOutlet weak var choseLabel: UILabel!
+    @IBOutlet weak var supergirlImage: UIImageView!
+    @IBOutlet weak var supermanImage: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
+        
     }
+    
+    private func setupUI(){
+            let startViewModel = StartViewModel()
+            maleButton.setTitle(startViewModel.maleButton, for: .normal)
+            maleButton.backgroundColor = .Yellow
+            maleButton.layer.cornerRadius = maleButton.frame.height/2
+            femaleButton.tintColor = .black
+            femaleButton.setTitle(startViewModel.femaleButton, for: .normal)
+            femaleButton.backgroundColor = .Yellow
+            femaleButton.layer.cornerRadius = femaleButton.frame.height/2
+            femaleButton.tintColor = .black
+            supermanImage.image = UIImage(named: startViewModel.supermanImage)
+            supergirlImage.image = UIImage(named: startViewModel.supergirImage)
+            
+        supermanImage.addBlackGradientLayerInForeground(frame: view.bounds, colors: [UIColor(red: 0, green: 0, blue: 0, alpha: 0.3),UIColor(red: 0, green: 0, blue: 0, alpha: 1), UIColor(red: 0, green: 0, blue: 0, alpha: 1)])
+        supergirlImage.addBlackGradientLayerInForeground(frame: view.bounds, colors: [ UIColor(red: 0, green: 0, blue: 0, alpha: 1),UIColor(red: 0, green: 0, blue: 0, alpha: 0.3),UIColor(red: 0, green: 0, blue: 0, alpha: 0.05)])
+            
+            supermanImage.contentMode = .scaleAspectFill
+            supergirlImage.contentMode = .scaleAspectFill
+            superheroLabel.text = startViewModel.superheroLabel
+            superheroLabel.textColor = .Yellow
+            //superheroLabel.font = .futuraWithSize32
+            choseLabel.text = startViewModel.chooseLabel
+            choseLabel.textColor = .white
+            //choseLabel.font = .sairaLightWithSize16
+            
+            self.view.backgroundColor = .black
+        }
+    
 
-
+    @IBAction func ChooseCharacter(_ sender: UIButton) {
+        let sex = sender.currentTitle!
+        ProfileManager.shared.createDefaultProfile(with: sex)
+        coordinator?.home()
+    }
 }
-

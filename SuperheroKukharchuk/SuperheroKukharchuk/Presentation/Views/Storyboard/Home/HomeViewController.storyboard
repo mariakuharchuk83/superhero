@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Saira-Medium.ttf">
+            <string>Saira-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="Y6W-OH-hqX" customClass="HomeViewController" customModule="SuperheroKukharchuk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanFull" translatesAutoresizingMaskIntoConstraints="NO" id="8sd-7q-JfD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPERMAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2N-u7-olw">
+                                <rect key="frame" x="140" y="84" width="134" height="38"/>
+                                <fontDescription key="fontDescription" name="Saira-Medium" family="Saira" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="5Sx-Nf-gd8"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="6dp-hx-jb2"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="-44" id="Ivp-r7-mYG"/>
+                            <constraint firstItem="O2N-u7-olw" firstAttribute="centerX" secondItem="8sd-7q-JfD" secondAttribute="centerX" id="gBe-S2-A1N"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="qd2-2O-wHx"/>
+                            <constraint firstItem="O2N-u7-olw" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="vJx-kx-0Cf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="homeBackImage" destination="8sd-7q-JfD" id="4Ls-6q-3do"/>
+                        <outlet property="sexHeroLabel" destination="O2N-u7-olw" id="g9W-RM-fGv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="supermanFull" width="125" height="270.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

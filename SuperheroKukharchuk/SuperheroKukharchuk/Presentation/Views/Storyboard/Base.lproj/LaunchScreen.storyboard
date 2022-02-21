@@ -16,22 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="v1t-6y-2ux">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="v1t-6y-2ux">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="v1t-6y-2ux" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NFv-Ks-Er4"/>
+                            <constraint firstItem="v1t-6y-2ux" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XO4-bM-c0u"/>
+                            <constraint firstItem="v1t-6y-2ux" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="b5V-M9-ShA"/>
+                            <constraint firstItem="v1t-6y-2ux" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zdC-Rd-yYW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50.724637681159422" y="373.66071428571428"/>
+            <point key="canvasLocation" x="49.230769230769226" y="373.22274881516586"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="250" height="541.33331298828125"/>
+        <image name="background" width="250" height="541.33331298828125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
