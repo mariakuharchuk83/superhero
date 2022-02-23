@@ -34,11 +34,13 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="5Sx-Nf-gd8"/>
-                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="6dp-hx-jb2"/>
-                            <constraint firstItem="8sd-7q-JfD" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="-44" id="Ivp-r7-mYG"/>
-                            <constraint firstItem="O2N-u7-olw" firstAttribute="centerX" secondItem="8sd-7q-JfD" secondAttribute="centerX" id="gBe-S2-A1N"/>
-                            <constraint firstItem="8sd-7q-JfD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="qd2-2O-wHx"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="-44" id="2Jh-Q4-YvV"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="8Ok-Bg-0uE"/>
+                            <constraint firstAttribute="bottom" secondItem="8sd-7q-JfD" secondAttribute="bottom" id="IQr-eF-AnJ"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="a8T-Rx-kYb"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="eYc-f8-ubo"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="hhi-Ki-SKE"/>
+                            <constraint firstItem="8sd-7q-JfD" firstAttribute="centerX" secondItem="O2N-u7-olw" secondAttribute="centerX" id="kvw-LA-z5k"/>
                             <constraint firstItem="O2N-u7-olw" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="vJx-kx-0Cf"/>
                         </constraints>
                     </view>

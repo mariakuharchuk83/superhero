@@ -16,9 +16,12 @@
 		4713726227BBD0CB007F48F2 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713726127BBD0CB007F48F2 /* Storyboarded.swift */; };
 		4713726527BBD0E8007F48F2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713726427BBD0E8007F48F2 /* Coordinator.swift */; };
 		4713726827BBD1F9007F48F2 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713726727BBD1F9007F48F2 /* MainCoordinator.swift */; };
-		471DCFB927C3F66000833335 /* StertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCFB827C3F66000833335 /* StertViewModel.swift */; };
+		471DCFB927C3F66000833335 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCFB827C3F66000833335 /* StartViewModel.swift */; };
 		471DCFBB27C3F69100833335 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCFBA27C3F69100833335 /* HomeViewModel.swift */; };
 		471DCFC527C41A3C00833335 /* StartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471DCFC427C41A3C00833335 /* StartViewController.storyboard */; };
+		471DCFCD27C4E72C00833335 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCFCB27C4E72C00833335 /* Profile+CoreDataClass.swift */; };
+		471DCFCE27C4E72C00833335 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCFCC27C4E72C00833335 /* Profile+CoreDataProperties.swift */; };
+		471DCFD027C6428F00833335 /* Saira.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 471DCFCF27C6428F00833335 /* Saira.ttf */; };
 		47B3A09627C39F53007F7B40 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A09527C39F52007F7B40 /* StartViewController.swift */; };
 		47B3A09D27C3A47F007F7B40 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A09C27C3A47E007F7B40 /* UIView+Gradient.swift */; };
 		47B3A09F27C3A4C0007F7B40 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A09E27C3A4C0007F7B40 /* UIColor+CustomColor.swift */; };
@@ -27,8 +30,6 @@
 		47B3A0AA27C3B199007F7B40 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B3A0A927C3B199007F7B40 /* HomeViewController.storyboard */; };
 		47B3A0AC27C3B1BE007F7B40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A0AB27C3B1BE007F7B40 /* HomeViewController.swift */; };
 		47B3A0AE27C3B435007F7B40 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A0AD27C3B435007F7B40 /* ProfileManager.swift */; };
-		47B3A0B027C3B7BA007F7B40 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A0AF27C3B7BA007F7B40 /* Profile+CoreDataClass.swift */; };
-		47B3A0B227C3B7D4007F7B40 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3A0B127C3B7D4007F7B40 /* Profile+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,22 +44,20 @@
 		4713726127BBD0CB007F48F2 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		4713726427BBD0E8007F48F2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		4713726727BBD1F9007F48F2 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		471DCFB827C3F66000833335 /* StertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StertViewModel.swift; sourceTree = "<group>"; };
+		471DCFB827C3F66000833335 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		471DCFBA27C3F69100833335 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		471DCFC427C41A3C00833335 /* StartViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StartViewController.storyboard; path = ../../../../../../../../StartViewController.storyboard; sourceTree = "<group>"; };
-		471DCFC627C41D3200833335 /* Saira-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Regular.ttf"; sourceTree = "<group>"; };
+		471DCFCB27C4E72C00833335 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		471DCFCC27C4E72C00833335 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		471DCFCF27C6428F00833335 /* Saira.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Saira.ttf; sourceTree = "<group>"; };
 		47B3A09527C39F52007F7B40 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		47B3A09A27C3A26B007F7B40 /* Saira-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Light.ttf"; sourceTree = "<group>"; };
 		47B3A09C27C3A47E007F7B40 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		47B3A09E27C3A4C0007F7B40 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
 		47B3A0A027C3A4E7007F7B40 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
-		47B3A0A427C3A75F007F7B40 /* Saira-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Medium.ttf"; sourceTree = "<group>"; };
 		47B3A0A627C3B047007F7B40 /* Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Profile.xcdatamodel; sourceTree = "<group>"; };
 		47B3A0A927C3B199007F7B40 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		47B3A0AB27C3B1BE007F7B40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		47B3A0AD27C3B435007F7B40 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
-		47B3A0AF27C3B7BA007F7B40 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
-		47B3A0B127C3B7D4007F7B40 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +156,7 @@
 		4713725B27BBD027007F48F2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				471DCFB827C3F66000833335 /* StertViewModel.swift */,
+				471DCFB827C3F66000833335 /* StartViewModel.swift */,
 				471DCFBA27C3F69100833335 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
@@ -190,9 +189,9 @@
 		4713726027BBD08D007F48F2 /* ProfileCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				471DCFCB27C4E72C00833335 /* Profile+CoreDataClass.swift */,
+				471DCFCC27C4E72C00833335 /* Profile+CoreDataProperties.swift */,
 				47B3A0A527C3B047007F7B40 /* Profile.xcdatamodeld */,
-				47B3A0AF27C3B7BA007F7B40 /* Profile+CoreDataClass.swift */,
-				47B3A0B127C3B7D4007F7B40 /* Profile+CoreDataProperties.swift */,
 			);
 			path = ProfileCoreData;
 			sourceTree = "<group>";
@@ -232,9 +231,7 @@
 		47B3A09927C3A257007F7B40 /* Saira */ = {
 			isa = PBXGroup;
 			children = (
-				47B3A0A427C3A75F007F7B40 /* Saira-Medium.ttf */,
-				471DCFC627C41D3200833335 /* Saira-Regular.ttf */,
-				47B3A09A27C3A26B007F7B40 /* Saira-Light.ttf */,
+				471DCFCF27C6428F00833335 /* Saira.ttf */,
 			);
 			name = Saira;
 			sourceTree = "<group>";
@@ -318,6 +315,7 @@
 				471DCFC527C41A3C00833335 /* StartViewController.storyboard in Resources */,
 				47B3A0AA27C3B199007F7B40 /* HomeViewController.storyboard in Resources */,
 				4713724E27BBBA25007F48F2 /* LaunchScreen.storyboard in Resources */,
+				471DCFD027C6428F00833335 /* Saira.ttf in Resources */,
 				4713724B27BBBA25007F48F2 /* Assets.xcassets in Resources */,
 				4713724927BBBA20007F48F2 /* Main.storyboard in Resources */,
 			);
@@ -338,13 +336,13 @@
 				4713726827BBD1F9007F48F2 /* MainCoordinator.swift in Sources */,
 				4713724227BBBA20007F48F2 /* AppDelegate.swift in Sources */,
 				47B3A0A127C3A4E7007F7B40 /* UIFont+CustomFont.swift in Sources */,
-				47B3A0B227C3B7D4007F7B40 /* Profile+CoreDataProperties.swift in Sources */,
+				471DCFCE27C4E72C00833335 /* Profile+CoreDataProperties.swift in Sources */,
 				4713726527BBD0E8007F48F2 /* Coordinator.swift in Sources */,
 				4713724427BBBA20007F48F2 /* SceneDelegate.swift in Sources */,
-				47B3A0B027C3B7BA007F7B40 /* Profile+CoreDataClass.swift in Sources */,
 				4713726227BBD0CB007F48F2 /* Storyboarded.swift in Sources */,
+				471DCFCD27C4E72C00833335 /* Profile+CoreDataClass.swift in Sources */,
 				47B3A0AE27C3B435007F7B40 /* ProfileManager.swift in Sources */,
-				471DCFB927C3F66000833335 /* StertViewModel.swift in Sources */,
+				471DCFB927C3F66000833335 /* StartViewModel.swift in Sources */,
 				47B3A0A727C3B047007F7B40 /* Profile.xcdatamodeld in Sources */,
 				47B3A0AC27C3B1BE007F7B40 /* HomeViewController.swift in Sources */,
 			);

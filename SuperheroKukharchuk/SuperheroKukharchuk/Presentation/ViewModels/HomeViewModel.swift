@@ -10,5 +10,5 @@ import Foundation
 class HomeViewModel {
     let supermanImage = "supermanFull"
     let supergirlImage = "supergirlFull"
-    var profile = ProfileManager.shared.userProfile
+    var profile = ProfileManager.sharedInstance.userProfile
 }

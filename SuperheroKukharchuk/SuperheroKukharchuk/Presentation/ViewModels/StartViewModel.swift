@@ -17,6 +17,6 @@ class StartViewModel {
     let chooseLabel = "выберите героя"
     
     func createProfile(with sex: String) {
-        ProfileManager.shared.createDefaultProfile(with: sex)
+        ProfileManager.sharedInstance.createDefaultProfile(with: sex)
     }
 }

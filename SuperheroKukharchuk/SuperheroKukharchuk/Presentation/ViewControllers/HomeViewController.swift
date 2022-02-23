@@ -14,15 +14,29 @@ class HomeViewController: UIViewController, Storyboarded {
     @IBOutlet weak var homeBackImage: UIImageView!
     @IBOutlet weak var sexHeroLabel: UILabel!
     
+    let homeViewModel = HomeViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
+        setUpUI()
     }
     
     private func setUpUI(){
-        let homeViewModel = HomeViewModel()
-        let sex = homeViewModel.profile?.sex
-        sexHeroLabel.text = sex
-        if(sex == "SUPERMAN"){
+        setUpLabel()
+        setUpImage()
+    }
+    
+    
+    private func setUpLabel(){
+        sexHeroLabel.text = homeViewModel.profile?.sex?.capitalized
+        sexHeroLabel.textColor = .white
+        sexHeroLabel.font = .sairaRegularWithSiz24
+    }
+    
+    private func setUpImage(){
+        print(sexHeroLabel.text)
+        if(sexHeroLabel.text == "Superman"){
             homeBackImage.image = UIImage(named: homeViewModel.supermanImage )
         } else {
             homeBackImage.image = UIImage(named: homeViewModel.supergirlImage )

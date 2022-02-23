@@ -10,7 +10,7 @@ import CoreData
 
 final class ProfileManager{
     
-    static let shared = ProfileManager()
+    static let sharedInstance = ProfileManager()
     
     var userProfile: Profile?
     
@@ -54,7 +54,7 @@ final class ProfileManager{
     
     var count = 0
     
-    func getRequserUser(){
+    func fetchSavedProfile(){
         let profileFetchRequest: NSFetchRequest<Profile> = Profile.fetchRequest()
         
         do{
